@@ -1,0 +1,286 @@
+[INFO ] 09-04-2025 16:29:27 [main] Log - Start testing TestProject with chrome: Place Order
+[INFO ] 09-04-2025 16:29:36 [main] Log - placeOrderWithoutInfo test is starting...
+[INFO ] 09-04-2025 16:29:36 [main] Log - click on Bếp Từ
+[INFO ] 09-04-2025 16:29:37 [main] Log - click on bosch prod
+[INFO ] 09-04-2025 16:29:37 [main] Log - Hover first prod
+[INFO ] 09-04-2025 16:29:38 [main] Log - Click first prod
+[INFO ] 09-04-2025 16:29:38 [main] Log - Click on Mua Ngay
+[INFO ] 09-04-2025 16:29:44 [main] Log - Fill name
+[INFO ] 09-04-2025 16:29:44 [main] Log - Fill phone
+[INFO ] 09-04-2025 16:29:44 [main] Log - Fill address
+[INFO ] 09-04-2025 16:29:45 [main] Log - Click pay button
+[INFO ] 09-04-2025 16:29:45 [main] Log - placeOrderWithoutInfo test is passed.
+[INFO ] 09-04-2025 16:29:52 [main] Log - placeOrderWithoutPhoneAndAdress test is starting...
+[INFO ] 09-04-2025 16:29:53 [main] Log - click on Bếp Từ
+[INFO ] 09-04-2025 16:29:53 [main] Log - click on bosch prod
+[INFO ] 09-04-2025 16:29:53 [main] Log - Hover first prod
+[INFO ] 09-04-2025 16:29:53 [main] Log - Click first prod
+[INFO ] 09-04-2025 16:29:54 [main] Log - Click on Mua Ngay
+[INFO ] 09-04-2025 16:30:00 [main] Log - Fill name
+[INFO ] 09-04-2025 16:30:00 [main] Log - Fill phone
+[INFO ] 09-04-2025 16:30:00 [main] Log - Fill address
+[INFO ] 09-04-2025 16:30:00 [main] Log - Click pay button
+[INFO ] 09-04-2025 16:30:00 [main] Log - placeOrderWithoutPhoneAndAdress test is passed.
+[INFO ] 09-04-2025 16:30:07 [main] Log - placeOrderWithoutName test is starting...
+[INFO ] 09-04-2025 16:30:07 [main] Log - click on Bếp Từ
+[INFO ] 09-04-2025 16:30:08 [main] Log - click on bosch prod
+[INFO ] 09-04-2025 16:30:08 [main] Log - Hover first prod
+[INFO ] 09-04-2025 16:30:08 [main] Log - Click first prod
+[INFO ] 09-04-2025 16:30:09 [main] Log - Click on Mua Ngay
+[INFO ] 09-04-2025 16:30:15 [main] Log - Fill name
+[INFO ] 09-04-2025 16:30:15 [main] Log - Fill phone
+[INFO ] 09-04-2025 16:30:15 [main] Log - Fill address
+[INFO ] 09-04-2025 16:30:15 [main] Log - Click pay button
+[INFO ] 09-04-2025 16:30:15 [main] Log - placeOrderWithoutName test is passed.
+[INFO ] 09-04-2025 16:30:22 [main] Log - placeOrderWithoutPhone test is starting...
+[INFO ] 09-04-2025 16:30:22 [main] Log - click on Bếp Từ
+[INFO ] 09-04-2025 16:30:22 [main] Log - click on bosch prod
+[INFO ] 09-04-2025 16:30:22 [main] Log - Hover first prod
+[INFO ] 09-04-2025 16:30:23 [main] Log - Click first prod
+[INFO ] 09-04-2025 16:30:23 [main] Log - Click on Mua Ngay
+[INFO ] 09-04-2025 16:30:29 [main] Log - Fill name
+[INFO ] 09-04-2025 16:30:29 [main] Log - Fill phone
+[INFO ] 09-04-2025 16:30:29 [main] Log - Fill address
+[INFO ] 09-04-2025 16:30:30 [main] Log - Click pay button
+[INFO ] 09-04-2025 16:30:30 [main] Log - placeOrderWithoutPhone test is passed.
+[INFO ] 09-04-2025 16:30:33 [main] Log - placeOrderWithWrongPhone test is starting...
+[INFO ] 09-04-2025 16:30:33 [main] Log - click on Bếp Từ
+[ERROR] 09-04-2025 16:31:03 [main] Log - placeOrderWithWrongPhone test is failed.
+[ERROR] 09-04-2025 16:31:03 [main] Log - Screenshot captured for test case: placeOrderWithWrongPhone
+[INFO ] 09-04-2025 16:31:04 [main] Log - End testing TestProject with chrome: Place Order
+[INFO ] 09-04-2025 16:31:04 [main] Log - Start testing TestProject with edge: Place Order
+[INFO ] 09-04-2025 16:31:43 [main] Log - placeOrderWithoutInfo test is starting...
+[INFO ] 09-04-2025 16:31:43 [main] Log - click on Bếp Từ
+[INFO ] 09-04-2025 16:31:43 [main] Log - click on bosch prod
+[INFO ] 09-04-2025 16:31:43 [main] Log - Hover first prod
+[INFO ] 09-04-2025 16:31:44 [main] Log - Click first prod
+[INFO ] 09-04-2025 16:31:44 [main] Log - Click on Mua Ngay
+[INFO ] 09-04-2025 16:31:50 [main] Log - Fill name
+[INFO ] 09-04-2025 16:31:51 [main] Log - Fill phone
+[INFO ] 09-04-2025 16:31:51 [main] Log - Fill address
+[INFO ] 09-04-2025 16:31:51 [main] Log - Click pay button
+[INFO ] 09-04-2025 16:31:51 [main] Log - placeOrderWithoutInfo test is passed.
+[INFO ] 09-04-2025 16:32:25 [main] Log - placeOrderWithoutPhoneAndAdress test is starting...
+[INFO ] 09-04-2025 16:32:25 [main] Log - click on Bếp Từ
+[INFO ] 09-04-2025 16:32:25 [main] Log - click on bosch prod
+[INFO ] 09-04-2025 16:32:25 [main] Log - Hover first prod
+[INFO ] 09-04-2025 16:32:26 [main] Log - Click first prod
+[INFO ] 09-04-2025 16:32:26 [main] Log - Click on Mua Ngay
+[INFO ] 09-04-2025 16:32:32 [main] Log - Fill name
+[INFO ] 09-04-2025 16:32:32 [main] Log - Fill phone
+[INFO ] 09-04-2025 16:32:32 [main] Log - Fill address
+[INFO ] 09-04-2025 16:32:33 [main] Log - Click pay button
+[INFO ] 09-04-2025 16:32:33 [main] Log - placeOrderWithoutPhoneAndAdress test is passed.
+[INFO ] 09-04-2025 16:32:53 [main] Log - placeOrderWithoutName test is starting...
+[INFO ] 09-04-2025 16:32:53 [main] Log - click on Bếp Từ
+[INFO ] 09-04-2025 16:32:53 [main] Log - click on bosch prod
+[INFO ] 09-04-2025 16:32:53 [main] Log - Hover first prod
+[INFO ] 09-04-2025 16:32:54 [main] Log - Click first prod
+[INFO ] 09-04-2025 16:32:54 [main] Log - Click on Mua Ngay
+[INFO ] 09-04-2025 16:33:00 [main] Log - Fill name
+[INFO ] 09-04-2025 16:33:00 [main] Log - Fill phone
+[INFO ] 09-04-2025 16:33:00 [main] Log - Fill address
+[INFO ] 09-04-2025 16:33:00 [main] Log - Click pay button
+[INFO ] 09-04-2025 16:33:00 [main] Log - placeOrderWithoutName test is passed.
+[INFO ] 09-04-2025 16:33:36 [main] Log - placeOrderWithoutPhone test is starting...
+[INFO ] 09-04-2025 16:33:36 [main] Log - click on Bếp Từ
+[INFO ] 09-04-2025 16:33:37 [main] Log - click on bosch prod
+[INFO ] 09-04-2025 16:33:37 [main] Log - Hover first prod
+[INFO ] 09-04-2025 16:33:38 [main] Log - Click first prod
+[INFO ] 09-04-2025 16:33:38 [main] Log - Click on Mua Ngay
+[INFO ] 09-04-2025 16:33:44 [main] Log - Fill name
+[INFO ] 09-04-2025 16:33:44 [main] Log - Fill phone
+[INFO ] 09-04-2025 16:33:44 [main] Log - Fill address
+[INFO ] 09-04-2025 16:33:44 [main] Log - Click pay button
+[INFO ] 09-04-2025 16:33:45 [main] Log - placeOrderWithoutPhone test is passed.
+[INFO ] 09-04-2025 16:34:56 [main] Log - placeOrderWithWrongPhone test is starting...
+[INFO ] 09-04-2025 16:34:56 [main] Log - click on Bếp Từ
+[INFO ] 09-04-2025 16:34:56 [main] Log - click on bosch prod
+[INFO ] 09-04-2025 16:34:56 [main] Log - Hover first prod
+[INFO ] 09-04-2025 16:34:57 [main] Log - Click first prod
+[INFO ] 09-04-2025 16:34:57 [main] Log - Click on Mua Ngay
+[INFO ] 09-04-2025 16:35:03 [main] Log - Fill name
+[INFO ] 09-04-2025 16:35:03 [main] Log - Fill phone
+[INFO ] 09-04-2025 16:35:04 [main] Log - Fill address
+[INFO ] 09-04-2025 16:35:04 [main] Log - Click pay button
+[ERROR] 09-04-2025 16:35:34 [main] Log - placeOrderWithWrongPhone test is failed.
+[ERROR] 09-04-2025 16:35:34 [main] Log - Screenshot captured for test case: placeOrderWithWrongPhone
+[INFO ] 09-04-2025 16:35:36 [main] Log - End testing TestProject with edge: Place Order
+[INFO ] 09-04-2025 16:35:36 [main] Log - Start testing TestProject with chrome: Find built-in gas stove
+[INFO ] 09-04-2025 16:35:41 [main] Log - FindProEngland test is starting...
+[INFO ] 09-04-2025 16:35:49 [main] Log - FindProEngland test is passed.
+[INFO ] 09-04-2025 16:35:56 [main] Log - FindProd test is starting...
+[INFO ] 09-04-2025 16:36:02 [main] Log - FindProd test is passed.
+[INFO ] 09-04-2025 16:36:03 [main] Log - End testing TestProject with chrome: Find built-in gas stove
+[INFO ] 09-04-2025 16:36:03 [main] Log - Start testing TestProject with FireFox: Find built-in gas stove
+[INFO ] 09-04-2025 16:36:30 [main] Log - FindProEngland test is starting...
+[INFO ] 09-04-2025 16:36:37 [main] Log - FindProEngland test is passed.
+[INFO ] 09-04-2025 16:36:43 [main] Log - FindProd test is starting...
+[INFO ] 09-04-2025 16:36:49 [main] Log - FindProd test is passed.
+[INFO ] 09-04-2025 16:36:49 [main] Log - End testing TestProject with FireFox: Find built-in gas stove
+[INFO ] 10-04-2025 11:00:13 [main] Log - Start testing TestProject with chrome: Place Order
+[INFO ] 10-04-2025 11:00:18 [main] Log - placeOrderWithoutInfo test is starting...
+[INFO ] 10-04-2025 11:00:18 [main] Log - click on Bếp Từ
+[INFO ] 10-04-2025 11:04:28 [main] Log - Start testing TestProject with chrome: Place Order
+[INFO ] 10-04-2025 11:04:52 [main] Log - Start testing TestProject with chrome: Place Order
+[INFO ] 10-04-2025 11:04:57 [main] Log - placeOrderWithoutInfo test is starting...
+[INFO ] 10-04-2025 11:04:57 [main] Log - click on Bếp Từ
+[INFO ] 10-04-2025 16:41:26 [main] Log - Start testing TestProject with chrome: Place Order
+[INFO ] 10-04-2025 16:41:35 [main] Log - placeOrderWithoutInfo test is starting...
+[INFO ] 10-04-2025 16:41:35 [main] Log - click on Bếp Từ
+[ERROR] 10-04-2025 16:42:05 [main] Log - placeOrderWithoutInfo test is failed.
+[ERROR] 10-04-2025 16:42:05 [main] Log - placeOrderWithoutInfo test is failed.
+[INFO ] 10-04-2025 16:42:05 [main] Log - End testing TestProject with chrome: Place Order
+[INFO ] 14-04-2025 08:58:57 [main] Log - Start testing Default test
+[INFO ] 14-04-2025 08:58:57 [main] Log - placeOrderWithoutInfo_BepTu test is starting...
+[WARN ] 14-04-2025 08:58:57 [main] Log - placeOrderWithoutInfo_BepTu test is skipped.
+[INFO ] 14-04-2025 08:58:57 [main] Log - End testing Default test
+[INFO ] 14-04-2025 09:00:06 [main] Log - Start testing Default test
+[INFO ] 14-04-2025 09:00:06 [main] Log - placeOrderWithoutInfo_BepTu test is starting...
+[WARN ] 14-04-2025 09:00:06 [main] Log - placeOrderWithoutInfo_BepTu test is skipped.
+[INFO ] 14-04-2025 09:00:06 [main] Log - placeOrderWithoutPhoneAndAdress test is starting...
+[WARN ] 14-04-2025 09:00:06 [main] Log - placeOrderWithoutPhoneAndAdress test is skipped.
+[INFO ] 14-04-2025 09:00:06 [main] Log - placeOrderWithoutName test is starting...
+[WARN ] 14-04-2025 09:00:06 [main] Log - placeOrderWithoutName test is skipped.
+[INFO ] 14-04-2025 09:00:06 [main] Log - placeOrderWithoutPhone test is starting...
+[WARN ] 14-04-2025 09:00:06 [main] Log - placeOrderWithoutPhone test is skipped.
+[INFO ] 14-04-2025 09:00:06 [main] Log - placeOrderWithWrongPhone test is starting...
+[WARN ] 14-04-2025 09:00:06 [main] Log - placeOrderWithWrongPhone test is skipped.
+[INFO ] 14-04-2025 09:00:06 [main] Log - End testing Default test
+[INFO ] 14-04-2025 09:02:12 [main] Log - Start testing Default test
+[INFO ] 14-04-2025 09:02:25 [main] Log - placeOrderWithoutInfo_BepTu test is starting...
+[INFO ] 14-04-2025 09:02:25 [main] Log - click on Bếp Từ
+[INFO ] 14-04-2025 09:02:25 [main] Log - click on bosch prod
+[INFO ] 14-04-2025 09:02:26 [main] Log - Hover first prod
+[INFO ] 14-04-2025 09:02:26 [main] Log - Click first prod
+[ERROR] 14-04-2025 09:02:26 [main] Log - placeOrderWithoutInfo_BepTu test is failed.
+[ERROR] 14-04-2025 09:02:27 [main] Log - Screenshot captured for test case: placeOrderWithoutInfo_BepTu
+[INFO ] 14-04-2025 09:02:28 [main] Log - End testing Default test
+[INFO ] 14-04-2025 09:03:10 [main] Log - Start testing Default test
+[INFO ] 14-04-2025 09:03:15 [main] Log - placeOrderWithoutInfo_BepTu test is starting...
+[INFO ] 14-04-2025 09:03:15 [main] Log - click on Bếp Từ
+[ERROR] 14-04-2025 09:03:18 [main] Log - placeOrderWithoutInfo_BepTu test is failed.
+[ERROR] 14-04-2025 09:03:18 [main] Log - placeOrderWithoutInfo_BepTu test is failed.
+[INFO ] 14-04-2025 09:03:18 [main] Log - End testing Default test
+[INFO ] 14-04-2025 09:04:00 [main] Log - Start testing Default test
+[INFO ] 14-04-2025 09:04:10 [main] Log - placeOrderWithoutInfo_BepTu test is starting...
+[INFO ] 14-04-2025 09:04:10 [main] Log - click on Bếp Từ
+[INFO ] 14-04-2025 09:04:10 [main] Log - click on bosch prod
+[INFO ] 14-04-2025 09:04:11 [main] Log - Hover first prod
+[INFO ] 14-04-2025 09:04:11 [main] Log - Click first prod
+[ERROR] 14-04-2025 09:04:12 [main] Log - placeOrderWithoutInfo_BepTu test is failed.
+[ERROR] 14-04-2025 09:04:12 [main] Log - Screenshot captured for test case: placeOrderWithoutInfo_BepTu
+[INFO ] 14-04-2025 09:04:12 [main] Log - End testing Default test
+[INFO ] 14-04-2025 09:07:10 [main] Log - Start testing Default test
+[INFO ] 14-04-2025 09:07:39 [main] Log - placeOrderWithoutInfo_BepTu test is starting...
+[INFO ] 14-04-2025 09:07:40 [main] Log - click on Bếp Từ
+[INFO ] 14-04-2025 09:07:40 [main] Log - click on bosch prod
+[INFO ] 14-04-2025 09:07:41 [main] Log - Hover first prod
+[INFO ] 14-04-2025 09:07:46 [main] Log - Click first prod
+[INFO ] 14-04-2025 09:07:46 [main] Log - Click on Mua Ngay
+[INFO ] 14-04-2025 09:07:52 [main] Log - Fill name
+[INFO ] 14-04-2025 09:07:52 [main] Log - Fill phone
+[INFO ] 14-04-2025 09:07:53 [main] Log - Fill address
+[INFO ] 14-04-2025 09:07:53 [main] Log - Click pay button
+[INFO ] 14-04-2025 09:07:53 [main] Log - placeOrderWithoutInfo_BepTu test is passed.
+[INFO ] 14-04-2025 09:07:53 [main] Log - End testing Default test
+[INFO ] 14-04-2025 09:09:48 [main] Log - Start testing TestProject with chrome: Place Order
+[INFO ] 14-04-2025 09:09:57 [main] Log - placeOrderWithoutInfo_BepTu test is starting...
+[INFO ] 14-04-2025 09:09:57 [main] Log - click on Bếp Từ
+[INFO ] 14-04-2025 09:09:57 [main] Log - click on bosch prod
+[INFO ] 14-04-2025 09:09:58 [main] Log - Hover first prod
+[INFO ] 14-04-2025 09:10:00 [main] Log - Click first prod
+[INFO ] 14-04-2025 09:10:01 [main] Log - Click on Mua Ngay
+[INFO ] 14-04-2025 09:10:07 [main] Log - Fill name
+[INFO ] 14-04-2025 09:10:07 [main] Log - Fill phone
+[INFO ] 14-04-2025 09:10:07 [main] Log - Fill address
+[INFO ] 14-04-2025 09:10:07 [main] Log - Click pay button
+[INFO ] 14-04-2025 09:10:07 [main] Log - placeOrderWithoutInfo_BepTu test is passed.
+[INFO ] 14-04-2025 09:10:17 [main] Log - placeOrderWithoutPhoneAndAdress test is starting...
+[INFO ] 14-04-2025 09:10:17 [main] Log - click on Bếp Từ
+[INFO ] 14-04-2025 09:10:18 [main] Log - click on bosch prod
+[INFO ] 14-04-2025 09:10:19 [main] Log - Hover first prod
+[INFO ] 14-04-2025 09:10:21 [main] Log - Click first prod
+[INFO ] 14-04-2025 09:10:21 [main] Log - Click on Mua Ngay
+[INFO ] 14-04-2025 09:10:27 [main] Log - Fill name
+[INFO ] 14-04-2025 09:10:27 [main] Log - Fill phone
+[INFO ] 14-04-2025 09:10:28 [main] Log - Fill address
+[INFO ] 14-04-2025 09:10:28 [main] Log - Click pay button
+[INFO ] 14-04-2025 09:10:28 [main] Log - placeOrderWithoutPhoneAndAdress test is passed.
+[INFO ] 14-04-2025 09:10:40 [main] Log - placeOrderWithoutName test is starting...
+[INFO ] 14-04-2025 09:10:40 [main] Log - click on Bếp Từ
+[INFO ] 14-04-2025 09:10:41 [main] Log - click on bosch prod
+[INFO ] 14-04-2025 09:10:42 [main] Log - Hover first prod
+[INFO ] 14-04-2025 09:10:44 [main] Log - Click first prod
+[INFO ] 14-04-2025 09:10:44 [main] Log - Click on Mua Ngay
+[INFO ] 14-04-2025 09:10:51 [main] Log - Fill name
+[INFO ] 14-04-2025 09:10:51 [main] Log - Fill phone
+[INFO ] 14-04-2025 09:10:51 [main] Log - Fill address
+[INFO ] 14-04-2025 09:10:51 [main] Log - Click pay button
+[INFO ] 14-04-2025 09:10:52 [main] Log - placeOrderWithoutName test is passed.
+[INFO ] 14-04-2025 09:11:00 [main] Log - placeOrderWithoutPhone test is starting...
+[INFO ] 14-04-2025 09:11:00 [main] Log - click on Bếp Từ
+[INFO ] 14-04-2025 09:11:00 [main] Log - click on bosch prod
+[INFO ] 14-04-2025 09:11:01 [main] Log - Hover first prod
+[INFO ] 14-04-2025 09:11:03 [main] Log - Click first prod
+[INFO ] 14-04-2025 09:11:03 [main] Log - Click on Mua Ngay
+[INFO ] 14-04-2025 09:11:10 [main] Log - Fill name
+[INFO ] 14-04-2025 09:11:10 [main] Log - Fill phone
+[INFO ] 14-04-2025 09:11:10 [main] Log - Fill address
+[INFO ] 14-04-2025 09:11:10 [main] Log - Click pay button
+[INFO ] 14-04-2025 09:11:10 [main] Log - placeOrderWithoutPhone test is passed.
+[INFO ] 14-04-2025 09:11:45 [main] Log - placeOrderWithWrongPhone test is starting...
+[INFO ] 14-04-2025 09:11:45 [main] Log - click on Bếp Từ
+[INFO ] 14-04-2025 09:11:46 [main] Log - click on bosch prod
+[INFO ] 14-04-2025 09:11:47 [main] Log - Hover first prod
+[INFO ] 14-04-2025 09:11:49 [main] Log - Click first prod
+[INFO ] 14-04-2025 09:11:49 [main] Log - Click on Mua Ngay
+[INFO ] 14-04-2025 09:12:09 [main] Log - Fill name
+[INFO ] 14-04-2025 09:12:09 [main] Log - Fill phone
+[INFO ] 14-04-2025 09:12:09 [main] Log - Fill address
+[INFO ] 14-04-2025 09:12:09 [main] Log - Click pay button
+[ERROR] 14-04-2025 09:12:40 [main] Log - placeOrderWithWrongPhone test is failed.
+[ERROR] 14-04-2025 09:12:40 [main] Log - Screenshot captured for test case: placeOrderWithWrongPhone
+[INFO ] 14-04-2025 09:12:40 [main] Log - End testing TestProject with chrome: Place Order
+[INFO ] 14-04-2025 09:12:40 [main] Log - Start testing TestProject with edge: Place Order
+[INFO ] 14-04-2025 09:12:56 [main] Log - placeOrderWithoutInfo_BepTu test is starting...
+[INFO ] 14-04-2025 09:12:56 [main] Log - click on Bếp Từ
+[INFO ] 14-04-2025 09:12:56 [main] Log - click on bosch prod
+[INFO ] 14-04-2025 09:12:57 [main] Log - Hover first prod
+[INFO ] 14-04-2025 09:12:59 [main] Log - Click first prod
+[INFO ] 14-04-2025 09:12:59 [main] Log - Click on Mua Ngay
+[INFO ] 14-04-2025 09:13:06 [main] Log - Fill name
+[INFO ] 14-04-2025 09:13:30 [main] Log - Fill phone
+[INFO ] 14-04-2025 09:13:30 [main] Log - Fill address
+[INFO ] 14-04-2025 09:13:30 [main] Log - Click pay button
+[INFO ] 14-04-2025 09:13:30 [main] Log - placeOrderWithoutInfo_BepTu test is passed.
+[INFO ] 14-04-2025 09:13:39 [main] Log - placeOrderWithoutPhoneAndAdress test is starting...
+[INFO ] 14-04-2025 09:13:39 [main] Log - click on Bếp Từ
+[INFO ] 14-04-2025 09:13:40 [main] Log - click on bosch prod
+[INFO ] 14-04-2025 09:13:41 [main] Log - Hover first prod
+[INFO ] 14-04-2025 09:13:43 [main] Log - Click first prod
+[INFO ] 14-04-2025 09:13:43 [main] Log - Click on Mua Ngay
+[INFO ] 14-04-2025 09:13:50 [main] Log - Fill name
+[INFO ] 14-04-2025 09:13:51 [main] Log - Fill phone
+[INFO ] 14-04-2025 09:13:52 [main] Log - Fill address
+[INFO ] 14-04-2025 09:13:52 [main] Log - Click pay button
+[INFO ] 14-04-2025 09:13:52 [main] Log - placeOrderWithoutPhoneAndAdress test is passed.
+[INFO ] 14-04-2025 09:17:15 [main] Log - placeOrderWithoutName test is starting...
+[WARN ] 14-04-2025 09:17:15 [main] Log - placeOrderWithoutName test is skipped.
+[INFO ] 14-04-2025 09:17:15 [main] Log - placeOrderWithoutPhone test is starting...
+[WARN ] 14-04-2025 09:17:15 [main] Log - placeOrderWithoutPhone test is skipped.
+[INFO ] 14-04-2025 09:17:15 [main] Log - placeOrderWithWrongPhone test is starting...
+[WARN ] 14-04-2025 09:17:15 [main] Log - placeOrderWithWrongPhone test is skipped.
+[INFO ] 14-04-2025 09:17:15 [main] Log - End testing TestProject with edge: Place Order
+[INFO ] 14-04-2025 09:17:15 [main] Log - Start testing TestProject with chrome: Find built-in gas stove
+[INFO ] 14-04-2025 09:17:29 [main] Log - FindProEngland test is starting...
+[INFO ] 14-04-2025 09:17:36 [main] Log - FindProEngland test is passed.
+[INFO ] 14-04-2025 09:17:47 [main] Log - FindProd test is starting...
+[INFO ] 14-04-2025 09:17:53 [main] Log - FindProd test is passed.
+[INFO ] 14-04-2025 09:17:53 [main] Log - End testing TestProject with chrome: Find built-in gas stove
+[INFO ] 14-04-2025 09:17:54 [main] Log - Start testing TestProject with FireFox: Find built-in gas stove
+[INFO ] 14-04-2025 09:18:48 [main] Log - FindProEngland test is starting...
+[INFO ] 14-04-2025 09:18:54 [main] Log - FindProEngland test is passed.
+[INFO ] 14-04-2025 09:19:04 [main] Log - FindProd test is starting...
+[INFO ] 14-04-2025 09:19:10 [main] Log - FindProd test is passed.
+[INFO ] 14-04-2025 09:19:10 [main] Log - End testing TestProject with FireFox: Find built-in gas stove

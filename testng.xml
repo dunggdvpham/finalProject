@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="TestSuite">
+
+    <listeners>
+        <listener class-name="automation.ultis.listeners.ReportListener"/>
+    </listeners>
+
+    <!-- First Test Suite -->
+    <test name="TestProject with chrome: Place Order">
+        <parameter name="browserTestNG" value="chrome"/>
+        <classes>
+            <class name="automation.testsuite.TestHomePage"/>
+        </classes>
+    </test>
+
+    <test name="TestProject with edge: Place Order">
+        <parameter name="browserTestNG" value="edge"/>
+        <classes>
+            <class name="automation.testsuite.TestHomePage"/>
+        </classes>
+    </test>
+
+    <!-- Second Test Suite -->
+    <test name="TestProject with chrome: Find built-in gas stove">
+        <parameter name="browserTestNG" value="chrome"/>
+        <classes>
+            <class name="automation.testsuite.FindBepGasProd"/>
+        </classes>
+    </test>
+
+    <test name="TestProject with FireFox: Find built-in gas stove">
+        <parameter name="browserTestNG" value="edge"/>
+        <classes>
+            <class name="automation.testsuite.FindBepGasProd"/>
+        </classes>
+    </test>
+
+</suite> <!-- Suite -->

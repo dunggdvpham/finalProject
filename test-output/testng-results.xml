@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-15T09:21:26 ICT" name="Default suite" finished-at="2025-04-15T09:21:42 ICT" duration-ms="15552">
+    <groups>
+    </groups>
+    <test started-at="2025-04-15T09:21:26 ICT" name="Default test" finished-at="2025-04-15T09:21:42 ICT" duration-ms="15552">
+      <class name="automation.testsuite.FindMayRuaChenBat">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:automation.testsuite.FindMayRuaChenBat@f68f0dc]" started-at="2025-04-15T09:21:26 ICT" name="openBrowser" finished-at="2025-04-15T09:21:35 ICT" duration-ms="8635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="findMayRuaBat_madeBy_England()[pri:3, instance:automation.testsuite.FindMayRuaChenBat@f68f0dc]" started-at="2025-04-15T09:21:35 ICT" name="findMayRuaBat_madeBy_England" finished-at="2025-04-15T09:21:41 ICT" duration-ms="6499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findMayRuaBat_madeBy_England -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:automation.testsuite.FindMayRuaChenBat@f68f0dc]" started-at="2025-04-15T09:21:41 ICT" name="closeBrowser" finished-at="2025-04-15T09:21:42 ICT" duration-ms="221" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=findMayRuaBat_madeBy_England status=SUCCESS method=FindMayRuaChenBat.findMayRuaBat_madeBy_England()[pri:3, instance:automation.testsuite.FindMayRuaChenBat@f68f0dc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- automation.testsuite.FindMayRuaChenBat -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
