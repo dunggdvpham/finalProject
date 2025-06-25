@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,8 +38,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-passed">Default suite</span>
+            <a href="#" panel-name="suite-TestSuite" class="navigator-link">
+              <span class="suite-name border-failed">TestSuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,37 +49,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\admin\AppData\Local\Temp\testng-eclipse-853522034\testng-customsuite.xml</span>
+                  <a href="#" panel-name="test-xml-TestSuite" class="navigator-link ">
+                    <span>C:\eclipse-workspace\BepAnToanProject\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
-                    <span class="test-stats">1 test</span>
+                  <a href="#" panel-name="testlist-TestSuite" class="navigator-link ">
+                    <span class="test-stats">4 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="group-TestSuite" class="navigator-link ">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="times-TestSuite" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="reporter-TestSuite" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="ignored-methods-TestSuite" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="chronological-TestSuite" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -92,21 +92,95 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">14 methods, 2 failed,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-TestSuite" class="hide-methods failed suite-TestSuite"> (hide)</a> <!-- hide-methods failed suite-TestSuite -->
+                      <a href="#" panel-name="suite-TestSuite" class="show-methods failed suite-TestSuite"> (show)</a> <!-- show-methods failed suite-TestSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-TestSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="automation.testsuite.TestHomePage" class="method navigator-link" hash-for-method="placeOrderWithWrongPhone">placeOrderWithWrongPhone</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="automation.testsuite.TestHomePage" class="method navigator-link" hash-for-method="placeOrderWithWrongPhone">placeOrderWithWrongPhone</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-TestSuite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-TestSuite" class="hide-methods passed suite-TestSuite"> (hide)</a> <!-- hide-methods passed suite-TestSuite -->
+                      <a href="#" panel-name="suite-TestSuite" class="show-methods passed suite-TestSuite"> (show)</a> <!-- show-methods passed suite-TestSuite -->
                     </span>
-                    <div class="method-list-content passed suite-Default_suite">
+                    <div class="method-list-content passed suite-TestSuite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="automation.testsuite.FindMayRuaChenBat" class="method navigator-link" hash-for-method="findMayRuaBat_madeBy_England">findMayRuaBat_madeBy_England</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-TestSuite" title="automation.testsuite.FindBepGasProd" class="method navigator-link" hash-for-method="FindProEngland">FindProEngland</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Default_suite -->
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="automation.testsuite.FindBepGasProd" class="method navigator-link" hash-for-method="FindProEngland">FindProEngland</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="automation.testsuite.FindBepGasProd" class="method navigator-link" hash-for-method="FindProd">FindProd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="automation.testsuite.FindBepGasProd" class="method navigator-link" hash-for-method="FindProd">FindProd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="automation.testsuite.TestHomePage" class="method navigator-link" hash-for-method="placeOrderWithoutInfo_BepTu">placeOrderWithoutInfo_BepTu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="automation.testsuite.TestHomePage" class="method navigator-link" hash-for-method="placeOrderWithoutInfo_BepTu">placeOrderWithoutInfo_BepTu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="automation.testsuite.TestHomePage" class="method navigator-link" hash-for-method="placeOrderWithoutName">placeOrderWithoutName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="automation.testsuite.TestHomePage" class="method navigator-link" hash-for-method="placeOrderWithoutName">placeOrderWithoutName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="automation.testsuite.TestHomePage" class="method navigator-link" hash-for-method="placeOrderWithoutPhone">placeOrderWithoutPhone</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="automation.testsuite.TestHomePage" class="method navigator-link" hash-for-method="placeOrderWithoutPhone">placeOrderWithoutPhone</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="automation.testsuite.TestHomePage" class="method navigator-link" hash-for-method="placeOrderWithoutPhoneAndAdress">placeOrderWithoutPhoneAndAdress</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="automation.testsuite.TestHomePage" class="method navigator-link" hash-for-method="placeOrderWithoutPhoneAndAdress">placeOrderWithoutPhoneAndAdress</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-TestSuite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -117,134 +191,502 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+        <div panel-name="suite-TestSuite" class="panel TestSuite">
+          <div class="suite-TestSuite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">automation.testsuite.FindMayRuaChenBat</span>
+              <img src="failed.png"/>
+              <span class="class-name">automation.testsuite.TestHomePage</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="findMayRuaBat_madeBy_England">
-                  </a> <!-- findMayRuaBat_madeBy_England -->
-                  <span class="method-name">findMayRuaBat_madeBy_England</span>
+                  <a name="placeOrderWithWrongPhone">
+                  </a> <!-- placeOrderWithWrongPhone -->
+                  <span class="method-name">placeOrderWithWrongPhone</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //small[normalize-space() = &apos;Số điện thoại không hợp lệ&apos;] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.50, chrome: {chromedriverVersion: 138.0.7204.49 (d2b48fd5f781..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60760}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60760/devtoo..., se:cdpVersion: 138.0.7204.50, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a880cbaeb04ef396bcd04538d236bf97
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at automation.common.CommonBase.getElementVisibility(CommonBase.java:108)
+	at automation.common.CommonBase.isVisibility(CommonBase.java:137)
+	at automation.testsuite.TestHomePage.placeOrderWithWrongPhone(TestHomePage.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="placeOrderWithWrongPhone">
+                  </a> <!-- placeOrderWithWrongPhone -->
+                  <span class="method-name">placeOrderWithWrongPhone</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //small[normalize-space() = &apos;Số điện thoại không hợp lệ&apos;] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:61793}, msedge: {msedgedriverVersion: 137.0.3296.93 (114b4a913acd..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61793/devtoo..., se:cdpVersion: 137.0.3296.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 116637cee373a8f13cbd8d24d44754b1
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at automation.common.CommonBase.getElementVisibility(CommonBase.java:108)
+	at automation.common.CommonBase.isVisibility(CommonBase.java:137)
+	at automation.testsuite.TestHomePage.placeOrderWithWrongPhone(TestHomePage.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-passed -->
-        </div> <!-- panel Default_suite -->
-        <div panel-name="test-xml-Default_suite" class="panel">
+          </div> <!-- suite-TestSuite-class-failed -->
+          <div class="suite-TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">automation.testsuite.TestHomePage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="placeOrderWithoutInfo_BepTu">
+                  </a> <!-- placeOrderWithoutInfo_BepTu -->
+                  <span class="method-name">placeOrderWithoutInfo_BepTu</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="placeOrderWithoutInfo_BepTu">
+                  </a> <!-- placeOrderWithoutInfo_BepTu -->
+                  <span class="method-name">placeOrderWithoutInfo_BepTu</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="placeOrderWithoutName">
+                  </a> <!-- placeOrderWithoutName -->
+                  <span class="method-name">placeOrderWithoutName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="placeOrderWithoutName">
+                  </a> <!-- placeOrderWithoutName -->
+                  <span class="method-name">placeOrderWithoutName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="placeOrderWithoutPhone">
+                  </a> <!-- placeOrderWithoutPhone -->
+                  <span class="method-name">placeOrderWithoutPhone</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="placeOrderWithoutPhone">
+                  </a> <!-- placeOrderWithoutPhone -->
+                  <span class="method-name">placeOrderWithoutPhone</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="placeOrderWithoutPhoneAndAdress">
+                  </a> <!-- placeOrderWithoutPhoneAndAdress -->
+                  <span class="method-name">placeOrderWithoutPhoneAndAdress</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="placeOrderWithoutPhoneAndAdress">
+                  </a> <!-- placeOrderWithoutPhoneAndAdress -->
+                  <span class="method-name">placeOrderWithoutPhoneAndAdress</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuite-class-passed -->
+          <div class="suite-TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">automation.testsuite.FindBepGasProd</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="FindProEngland">
+                  </a> <!-- FindProEngland -->
+                  <span class="method-name">FindProEngland</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FindProEngland">
+                  </a> <!-- FindProEngland -->
+                  <span class="method-name">FindProEngland</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FindProd">
+                  </a> <!-- FindProd -->
+                  <span class="method-name">FindProd</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FindProd">
+                  </a> <!-- FindProd -->
+                  <span class="method-name">FindProd</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuite-class-passed -->
+        </div> <!-- panel TestSuite -->
+        <div panel-name="test-xml-TestSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\admin\AppData\Local\Temp\testng-eclipse-853522034\testng-customsuite.xml</span>
+            <span class="header-content">C:\eclipse-workspace\BepAnToanProject\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+&lt;suite name=&quot;TestSuite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;automation.ultis.listeners.ReportListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestProject with chrome: Place Order&quot;&gt;
+    &lt;parameter name=&quot;browserTestNG&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;automation.testsuite.FindMayRuaChenBat&quot;&gt;
-        &lt;methods&gt;
-          &lt;include name=&quot;findMayRuaBat_madeBy_England&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- automation.testsuite.FindMayRuaChenBat --&gt;
+      &lt;class name=&quot;automation.testsuite.TestHomePage&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Default test --&gt;
-&lt;/suite&gt; &lt;!-- Default suite --&gt;
+  &lt;/test&gt; &lt;!-- TestProject with chrome: Place Order --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestProject with edge: Place Order&quot;&gt;
+    &lt;parameter name=&quot;browserTestNG&quot; value=&quot;edge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;automation.testsuite.TestHomePage&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestProject with edge: Place Order --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestProject with chrome: Find built-in gas stove&quot;&gt;
+    &lt;parameter name=&quot;browserTestNG&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;automation.testsuite.FindBepGasProd&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestProject with chrome: Find built-in gas stove --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestProject with FireFox: Find built-in gas stove&quot;&gt;
+    &lt;parameter name=&quot;browserTestNG&quot; value=&quot;edge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;automation.testsuite.FindBepGasProd&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestProject with FireFox: Find built-in gas stove --&gt;
+&lt;/suite&gt; &lt;!-- TestSuite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Default_suite" class="panel">
+        <div panel-name="testlist-TestSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Default suite</span>
+            <span class="header-content">Tests for TestSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (1 class)</span>
+                <span class="test-name">TestProject with chrome: Place Order (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestProject with edge: Place Order (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestProject with chrome: Find built-in gas stove (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestProject with FireFox: Find built-in gas stove (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Default_suite" class="panel">
+        <div panel-name="group-TestSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Default suite</span>
+            <span class="header-content">Groups for TestSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Default_suite" class="panel">
+        <div panel-name="times-TestSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Default suite</span>
+            <span class="header-content">Times for TestSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Default_suite');
-function tableData_Default_suite() {
+suiteTableInitFunctions.push('tableData_TestSuite');
+function tableData_TestSuite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(14);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'findMayRuaBat_madeBy_England')
-data.setCell(0, 2, 'automation.testsuite.FindMayRuaChenBat')
-data.setCell(0, 3, 6499);
-window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+data.setCell(0, 1, 'placeOrderWithWrongPhone')
+data.setCell(0, 2, 'automation.testsuite.TestHomePage')
+data.setCell(0, 3, 43606);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'placeOrderWithWrongPhone')
+data.setCell(1, 2, 'automation.testsuite.TestHomePage')
+data.setCell(1, 3, 43574);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'placeOrderWithoutInfo_BepTu')
+data.setCell(2, 2, 'automation.testsuite.TestHomePage')
+data.setCell(2, 3, 17512);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'placeOrderWithoutName')
+data.setCell(3, 2, 'automation.testsuite.TestHomePage')
+data.setCell(3, 3, 15718);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'placeOrderWithoutPhoneAndAdress')
+data.setCell(4, 2, 'automation.testsuite.TestHomePage')
+data.setCell(4, 3, 14798);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'placeOrderWithoutName')
+data.setCell(5, 2, 'automation.testsuite.TestHomePage')
+data.setCell(5, 3, 14529);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'placeOrderWithoutInfo_BepTu')
+data.setCell(6, 2, 'automation.testsuite.TestHomePage')
+data.setCell(6, 3, 14460);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'placeOrderWithoutPhone')
+data.setCell(7, 2, 'automation.testsuite.TestHomePage')
+data.setCell(7, 3, 14124);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'placeOrderWithoutPhoneAndAdress')
+data.setCell(8, 2, 'automation.testsuite.TestHomePage')
+data.setCell(8, 3, 13614);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'placeOrderWithoutPhone')
+data.setCell(9, 2, 'automation.testsuite.TestHomePage')
+data.setCell(9, 3, 13460);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'FindProEngland')
+data.setCell(10, 2, 'automation.testsuite.FindBepGasProd')
+data.setCell(10, 3, 5468);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'FindProEngland')
+data.setCell(11, 2, 'automation.testsuite.FindBepGasProd')
+data.setCell(11, 3, 4865);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'FindProd')
+data.setCell(12, 2, 'automation.testsuite.FindBepGasProd')
+data.setCell(12, 3, 3577);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'FindProd')
+data.setCell(13, 2, 'automation.testsuite.FindBepGasProd')
+data.setCell(13, 3, 3565);
+window.suiteTableData['TestSuite']= { tableData: data, tableDiv: 'times-div-TestSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 seconds</span>
-              <div id="times-div-Default_suite">
-              </div> <!-- times-div-Default_suite -->
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-TestSuite">
+              </div> <!-- times-div-TestSuite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Default_suite" class="panel">
+        <div panel-name="reporter-TestSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Default suite</span>
+            <span class="header-content">Reporter output for TestSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Default_suite" class="panel">
+        <div panel-name="ignored-methods-TestSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">2 ignored methods</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">automation.testsuite.FindMayRuaChenBat</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">findMayRuaBat_price_3to5</span>
-                <br/>
-                <span class="ignored-method-name">findMayRuaBat_brandName_bosch</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Default_suite" class="panel">
+        <div panel-name="chronological-TestSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">automation.testsuite.FindMayRuaChenBat</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">automation.testsuite.TestHomePage</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">openBrowser</span>
+                <span class="method-name">openBrowser(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">findMayRuaBat_madeBy_England</span>
-                <span class="method-start">8769 ms</span>
+                <span class="method-name">placeOrderWithoutInfo_BepTu</span>
+                <span class="method-start">18293 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">closeBrowser([TestResult name=findMayRuaBat_madeBy_England status=SUCCESS method=FindMayRuaChenBat.findMayRuaBat_...)</span>
-                <span class="method-start">15297 ms</span>
+                <span class="method-name">quitBrowser([TestResult name=placeOrderWithoutInfo_BepTu status=SUCCESS method=TestHomePage.placeOrderWithoutInf...)</span>
+                <span class="method-start">35848 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser(chrome)</span>
+                <span class="method-start">36278 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">placeOrderWithoutPhoneAndAdress</span>
+                <span class="method-start">62392 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser([TestResult name=placeOrderWithoutPhoneAndAdress status=SUCCESS method=TestHomePage.placeOrderWithou...)</span>
+                <span class="method-start">77197 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser(chrome)</span>
+                <span class="method-start">77726 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">placeOrderWithoutName</span>
+                <span class="method-start">116312 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser([TestResult name=placeOrderWithoutName status=SUCCESS method=TestHomePage.placeOrderWithoutName()[pr...)</span>
+                <span class="method-start">132032 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser(chrome)</span>
+                <span class="method-start">132409 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">placeOrderWithoutPhone</span>
+                <span class="method-start">146994 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser([TestResult name=placeOrderWithoutPhone status=SUCCESS method=TestHomePage.placeOrderWithoutPhone()[...)</span>
+                <span class="method-start">160460 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser(chrome)</span>
+                <span class="method-start">160858 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">placeOrderWithWrongPhone</span>
+                <span class="method-start">173694 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser([TestResult name=placeOrderWithWrongPhone status=FAILURE method=TestHomePage.placeOrderWithWrongPhon...)</span>
+                <span class="method-start">217755 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser(edge)</span>
+                <span class="method-start">218428 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">placeOrderWithoutInfo_BepTu</span>
+                <span class="method-start">261926 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser([TestResult name=placeOrderWithoutInfo_BepTu status=SUCCESS method=TestHomePage.placeOrderWithoutInf...)</span>
+                <span class="method-start">276394 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser(edge)</span>
+                <span class="method-start">277832 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">placeOrderWithoutPhoneAndAdress</span>
+                <span class="method-start">300752 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser([TestResult name=placeOrderWithoutPhoneAndAdress status=SUCCESS method=TestHomePage.placeOrderWithou...)</span>
+                <span class="method-start">314372 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser(edge)</span>
+                <span class="method-start">315824 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">placeOrderWithoutName</span>
+                <span class="method-start">357352 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser([TestResult name=placeOrderWithoutName status=SUCCESS method=TestHomePage.placeOrderWithoutName()[pr...)</span>
+                <span class="method-start">371889 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser(edge)</span>
+                <span class="method-start">373347 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">placeOrderWithoutPhone</span>
+                <span class="method-start">412176 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser([TestResult name=placeOrderWithoutPhone status=SUCCESS method=TestHomePage.placeOrderWithoutPhone()[...)</span>
+                <span class="method-start">426304 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser(edge)</span>
+                <span class="method-start">427747 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">placeOrderWithWrongPhone</span>
+                <span class="method-start">460095 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser([TestResult name=placeOrderWithWrongPhone status=FAILURE method=TestHomePage.placeOrderWithWrongPhon...)</span>
+                <span class="method-start">504157 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">automation.testsuite.FindBepGasProd</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser(chrome)</span>
+                <span class="method-start">505911 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">FindProEngland</span>
+                <span class="method-start">517928 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=FindProEngland status=SUCCESS method=FindBepGasProd.FindProEngland()[pri:0, instanc...)</span>
+                <span class="method-start">522800 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser(chrome)</span>
+                <span class="method-start">526148 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">FindProd</span>
+                <span class="method-start">535674 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=FindProd status=SUCCESS method=FindBepGasProd.FindProd()[pri:0, instance:automation...)</span>
+                <span class="method-start">539241 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser(edge)</span>
+                <span class="method-start">542525 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">FindProEngland</span>
+                <span class="method-start">557527 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=FindProEngland status=SUCCESS method=FindBepGasProd.FindProEngland()[pri:0, instanc...)</span>
+                <span class="method-start">563009 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser(edge)</span>
+                <span class="method-start">566433 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">FindProd</span>
+                <span class="method-start">578874 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=FindProd status=SUCCESS method=FindBepGasProd.FindProd()[pri:0, instance:automation...)</span>
+                <span class="method-start">582455 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

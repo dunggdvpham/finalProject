@@ -1,14 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [TestSuite]">
+  <listeners>
+    <listener class-name="automation.ultis.listeners.ReportListener"/>
+  </listeners>
+  <test thread-count="5" name="TestProject with chrome: Place Order(failed)">
+    <parameter name="browserTestNG" value="chrome"/>
     <classes>
-      <class name="automation.testsuite.FindMayRuaChenBat">
+      <class name="automation.testsuite.TestHomePage">
         <methods>
+          <include name="quitBrowser"/>
           <include name="openBrowser"/>
-          <include name="findMayRuaBat"/>
+          <include name="placeOrderWithWrongPhone"/>
         </methods>
-      </class> <!-- automation.testsuite.FindMayRuaChenBat -->
+      </class> <!-- automation.testsuite.TestHomePage -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- TestProject with chrome: Place Order(failed) -->
+  <test thread-count="5" name="TestProject with edge: Place Order(failed)">
+    <parameter name="browserTestNG" value="edge"/>
+    <classes>
+      <class name="automation.testsuite.TestHomePage">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="openBrowser"/>
+          <include name="placeOrderWithWrongPhone"/>
+        </methods>
+      </class> <!-- automation.testsuite.TestHomePage -->
+    </classes>
+  </test> <!-- TestProject with edge: Place Order(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

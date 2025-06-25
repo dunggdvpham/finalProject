@@ -1,32 +1,489 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="14" passed="12" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-15T09:21:26 ICT" name="Default suite" finished-at="2025-04-15T09:21:42 ICT" duration-ms="15552">
+  <suite started-at="2025-06-25T15:44:31 ICT" name="TestSuite" finished-at="2025-06-25T15:54:18 ICT" duration-ms="586538">
     <groups>
     </groups>
-    <test started-at="2025-04-15T09:21:26 ICT" name="Default test" finished-at="2025-04-15T09:21:42 ICT" duration-ms="15552">
-      <class name="automation.testsuite.FindMayRuaChenBat">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:automation.testsuite.FindMayRuaChenBat@f68f0dc]" started-at="2025-04-15T09:21:26 ICT" name="openBrowser" finished-at="2025-04-15T09:21:35 ICT" duration-ms="8635" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method signature="findMayRuaBat_madeBy_England()[pri:3, instance:automation.testsuite.FindMayRuaChenBat@f68f0dc]" started-at="2025-04-15T09:21:35 ICT" name="findMayRuaBat_madeBy_England" finished-at="2025-04-15T09:21:41 ICT" duration-ms="6499" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- findMayRuaBat_madeBy_England -->
-        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:automation.testsuite.FindMayRuaChenBat@f68f0dc]" started-at="2025-04-15T09:21:41 ICT" name="closeBrowser" finished-at="2025-04-15T09:21:42 ICT" duration-ms="221" status="PASS">
+    <test started-at="2025-06-25T15:44:31 ICT" name="TestProject with chrome: Place Order" finished-at="2025-06-25T15:48:10 ICT" duration-ms="219170">
+      <class name="automation.testsuite.TestHomePage">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:automation.testsuite.TestHomePage@3aa078fd]" started-at="2025-06-25T15:44:32 ICT" name="openBrowser" finished-at="2025-06-25T15:44:50 ICT" duration-ms="17998" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=findMayRuaBat_madeBy_England status=SUCCESS method=FindMayRuaChenBat.findMayRuaBat_madeBy_England()[pri:3, instance:automation.testsuite.FindMayRuaChenBat@f68f0dc] output={null}]]]>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="placeOrderWithoutInfo_BepTu()[pri:1, instance:automation.testsuite.TestHomePage@3aa078fd]" started-at="2025-06-25T15:44:50 ICT" name="placeOrderWithoutInfo_BepTu" finished-at="2025-06-25T15:45:08 ICT" duration-ms="17512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrderWithoutInfo_BepTu -->
+        <test-method is-config="true" signature="quitBrowser(org.testng.ITestResult)[pri:0, instance:automation.testsuite.TestHomePage@3aa078fd]" started-at="2025-06-25T15:45:08 ICT" name="quitBrowser" finished-at="2025-06-25T15:45:08 ICT" duration-ms="423" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=placeOrderWithoutInfo_BepTu status=SUCCESS method=TestHomePage.placeOrderWithoutInfo_BepTu()[pri:1, instance:automation.testsuite.TestHomePage@3aa078fd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:automation.testsuite.TestHomePage@3aa078fd]" started-at="2025-06-25T15:45:08 ICT" name="openBrowser" finished-at="2025-06-25T15:45:34 ICT" duration-ms="26110" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="placeOrderWithoutPhoneAndAdress()[pri:2, instance:automation.testsuite.TestHomePage@3aa078fd]" started-at="2025-06-25T15:45:34 ICT" name="placeOrderWithoutPhoneAndAdress" finished-at="2025-06-25T15:45:49 ICT" duration-ms="14798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrderWithoutPhoneAndAdress -->
+        <test-method is-config="true" signature="quitBrowser(org.testng.ITestResult)[pri:0, instance:automation.testsuite.TestHomePage@3aa078fd]" started-at="2025-06-25T15:45:49 ICT" name="quitBrowser" finished-at="2025-06-25T15:45:50 ICT" duration-ms="526" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=placeOrderWithoutPhoneAndAdress status=SUCCESS method=TestHomePage.placeOrderWithoutPhoneAndAdress()[pri:2, instance:automation.testsuite.TestHomePage@3aa078fd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:automation.testsuite.TestHomePage@3aa078fd]" started-at="2025-06-25T15:45:50 ICT" name="openBrowser" finished-at="2025-06-25T15:46:28 ICT" duration-ms="38579" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="placeOrderWithoutName()[pri:3, instance:automation.testsuite.TestHomePage@3aa078fd]" started-at="2025-06-25T15:46:28 ICT" name="placeOrderWithoutName" finished-at="2025-06-25T15:46:44 ICT" duration-ms="15718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrderWithoutName -->
+        <test-method is-config="true" signature="quitBrowser(org.testng.ITestResult)[pri:0, instance:automation.testsuite.TestHomePage@3aa078fd]" started-at="2025-06-25T15:46:44 ICT" name="quitBrowser" finished-at="2025-06-25T15:46:44 ICT" duration-ms="371" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=placeOrderWithoutName status=SUCCESS method=TestHomePage.placeOrderWithoutName()[pri:3, instance:automation.testsuite.TestHomePage@3aa078fd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:automation.testsuite.TestHomePage@3aa078fd]" started-at="2025-06-25T15:46:44 ICT" name="openBrowser" finished-at="2025-06-25T15:46:59 ICT" duration-ms="14582" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="placeOrderWithoutPhone()[pri:4, instance:automation.testsuite.TestHomePage@3aa078fd]" started-at="2025-06-25T15:46:59 ICT" name="placeOrderWithoutPhone" finished-at="2025-06-25T15:47:12 ICT" duration-ms="13460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrderWithoutPhone -->
+        <test-method is-config="true" signature="quitBrowser(org.testng.ITestResult)[pri:0, instance:automation.testsuite.TestHomePage@3aa078fd]" started-at="2025-06-25T15:47:12 ICT" name="quitBrowser" finished-at="2025-06-25T15:47:13 ICT" duration-ms="394" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=placeOrderWithoutPhone status=SUCCESS method=TestHomePage.placeOrderWithoutPhone()[pri:4, instance:automation.testsuite.TestHomePage@3aa078fd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:automation.testsuite.TestHomePage@3aa078fd]" started-at="2025-06-25T15:47:13 ICT" name="openBrowser" finished-at="2025-06-25T15:47:26 ICT" duration-ms="12834" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="placeOrderWithWrongPhone()[pri:5, instance:automation.testsuite.TestHomePage@3aa078fd]" started-at="2025-06-25T15:47:26 ICT" name="placeOrderWithWrongPhone" finished-at="2025-06-25T15:48:09 ICT" duration-ms="43606" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //small[normalize-space() = 'Số điện thoại không hợp lệ'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.50, chrome: {chromedriverVersion: 138.0.7204.49 (d2b48fd5f781..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60760}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60760/devtoo..., se:cdpVersion: 138.0.7204.50, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a880cbaeb04ef396bcd04538d236bf97]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //small[normalize-space() = 'Số điện thoại không hợp lệ'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.50, chrome: {chromedriverVersion: 138.0.7204.49 (d2b48fd5f781..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60760}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60760/devtoo..., se:cdpVersion: 138.0.7204.50, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a880cbaeb04ef396bcd04538d236bf97
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at automation.common.CommonBase.getElementVisibility(CommonBase.java:108)
+at automation.common.CommonBase.isVisibility(CommonBase.java:137)
+at automation.testsuite.TestHomePage.placeOrderWithWrongPhone(TestHomePage.java:80)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrderWithWrongPhone -->
+        <test-method is-config="true" signature="quitBrowser(org.testng.ITestResult)[pri:0, instance:automation.testsuite.TestHomePage@3aa078fd]" started-at="2025-06-25T15:48:10 ICT" name="quitBrowser" finished-at="2025-06-25T15:48:10 ICT" duration-ms="618" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=placeOrderWithWrongPhone status=FAILURE method=TestHomePage.placeOrderWithWrongPhone()[pri:5, instance:automation.testsuite.TestHomePage@3aa078fd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- automation.testsuite.TestHomePage -->
+    </test> <!-- TestProject with chrome: Place Order -->
+    <test started-at="2025-06-25T15:48:10 ICT" name="TestProject with edge: Place Order" finished-at="2025-06-25T15:52:58 ICT" duration-ms="287462">
+      <class name="automation.testsuite.TestHomePage">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:automation.testsuite.TestHomePage@34129c78]" started-at="2025-06-25T15:48:10 ICT" name="openBrowser" finished-at="2025-06-25T15:48:54 ICT" duration-ms="43496" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="placeOrderWithoutInfo_BepTu()[pri:1, instance:automation.testsuite.TestHomePage@34129c78]" started-at="2025-06-25T15:48:54 ICT" name="placeOrderWithoutInfo_BepTu" finished-at="2025-06-25T15:49:08 ICT" duration-ms="14460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrderWithoutInfo_BepTu -->
+        <test-method is-config="true" signature="quitBrowser(org.testng.ITestResult)[pri:0, instance:automation.testsuite.TestHomePage@34129c78]" started-at="2025-06-25T15:49:08 ICT" name="quitBrowser" finished-at="2025-06-25T15:49:10 ICT" duration-ms="1436" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=placeOrderWithoutInfo_BepTu status=SUCCESS method=TestHomePage.placeOrderWithoutInfo_BepTu()[pri:1, instance:automation.testsuite.TestHomePage@34129c78] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:automation.testsuite.TestHomePage@34129c78]" started-at="2025-06-25T15:49:10 ICT" name="openBrowser" finished-at="2025-06-25T15:49:33 ICT" duration-ms="22918" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="placeOrderWithoutPhoneAndAdress()[pri:2, instance:automation.testsuite.TestHomePage@34129c78]" started-at="2025-06-25T15:49:33 ICT" name="placeOrderWithoutPhoneAndAdress" finished-at="2025-06-25T15:49:46 ICT" duration-ms="13614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrderWithoutPhoneAndAdress -->
+        <test-method is-config="true" signature="quitBrowser(org.testng.ITestResult)[pri:0, instance:automation.testsuite.TestHomePage@34129c78]" started-at="2025-06-25T15:49:46 ICT" name="quitBrowser" finished-at="2025-06-25T15:49:48 ICT" duration-ms="1450" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=placeOrderWithoutPhoneAndAdress status=SUCCESS method=TestHomePage.placeOrderWithoutPhoneAndAdress()[pri:2, instance:automation.testsuite.TestHomePage@34129c78] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:automation.testsuite.TestHomePage@34129c78]" started-at="2025-06-25T15:49:48 ICT" name="openBrowser" finished-at="2025-06-25T15:50:29 ICT" duration-ms="41523" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="placeOrderWithoutName()[pri:3, instance:automation.testsuite.TestHomePage@34129c78]" started-at="2025-06-25T15:50:29 ICT" name="placeOrderWithoutName" finished-at="2025-06-25T15:50:44 ICT" duration-ms="14529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrderWithoutName -->
+        <test-method is-config="true" signature="quitBrowser(org.testng.ITestResult)[pri:0, instance:automation.testsuite.TestHomePage@34129c78]" started-at="2025-06-25T15:50:44 ICT" name="quitBrowser" finished-at="2025-06-25T15:50:45 ICT" duration-ms="1455" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=placeOrderWithoutName status=SUCCESS method=TestHomePage.placeOrderWithoutName()[pri:3, instance:automation.testsuite.TestHomePage@34129c78] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:automation.testsuite.TestHomePage@34129c78]" started-at="2025-06-25T15:50:45 ICT" name="openBrowser" finished-at="2025-06-25T15:51:24 ICT" duration-ms="38826" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="placeOrderWithoutPhone()[pri:4, instance:automation.testsuite.TestHomePage@34129c78]" started-at="2025-06-25T15:51:24 ICT" name="placeOrderWithoutPhone" finished-at="2025-06-25T15:51:38 ICT" duration-ms="14124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrderWithoutPhone -->
+        <test-method is-config="true" signature="quitBrowser(org.testng.ITestResult)[pri:0, instance:automation.testsuite.TestHomePage@34129c78]" started-at="2025-06-25T15:51:38 ICT" name="quitBrowser" finished-at="2025-06-25T15:51:40 ICT" duration-ms="1440" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=placeOrderWithoutPhone status=SUCCESS method=TestHomePage.placeOrderWithoutPhone()[pri:4, instance:automation.testsuite.TestHomePage@34129c78] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:automation.testsuite.TestHomePage@34129c78]" started-at="2025-06-25T15:51:40 ICT" name="openBrowser" finished-at="2025-06-25T15:52:12 ICT" duration-ms="32346" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="placeOrderWithWrongPhone()[pri:5, instance:automation.testsuite.TestHomePage@34129c78]" started-at="2025-06-25T15:52:12 ICT" name="placeOrderWithWrongPhone" finished-at="2025-06-25T15:52:56 ICT" duration-ms="43574" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //small[normalize-space() = 'Số điện thoại không hợp lệ'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:61793}, msedge: {msedgedriverVersion: 137.0.3296.93 (114b4a913acd..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61793/devtoo..., se:cdpVersion: 137.0.3296.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 116637cee373a8f13cbd8d24d44754b1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //small[normalize-space() = 'Số điện thoại không hợp lệ'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:61793}, msedge: {msedgedriverVersion: 137.0.3296.93 (114b4a913acd..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61793/devtoo..., se:cdpVersion: 137.0.3296.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 116637cee373a8f13cbd8d24d44754b1
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at automation.common.CommonBase.getElementVisibility(CommonBase.java:108)
+at automation.common.CommonBase.isVisibility(CommonBase.java:137)
+at automation.testsuite.TestHomePage.placeOrderWithWrongPhone(TestHomePage.java:80)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrderWithWrongPhone -->
+        <test-method is-config="true" signature="quitBrowser(org.testng.ITestResult)[pri:0, instance:automation.testsuite.TestHomePage@34129c78]" started-at="2025-06-25T15:52:56 ICT" name="quitBrowser" finished-at="2025-06-25T15:52:58 ICT" duration-ms="1727" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=placeOrderWithWrongPhone status=FAILURE method=TestHomePage.placeOrderWithWrongPhone()[pri:5, instance:automation.testsuite.TestHomePage@34129c78] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- automation.testsuite.TestHomePage -->
+    </test> <!-- TestProject with edge: Place Order -->
+    <test started-at="2025-06-25T15:52:58 ICT" name="TestProject with chrome: Find built-in gas stove" finished-at="2025-06-25T15:53:35 ICT" duration-ms="36605">
+      <class name="automation.testsuite.FindBepGasProd">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:automation.testsuite.FindBepGasProd@4ef74c30]" started-at="2025-06-25T15:52:58 ICT" name="openBrowser" finished-at="2025-06-25T15:53:10 ICT" duration-ms="12015" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="FindProEngland()[pri:0, instance:automation.testsuite.FindBepGasProd@4ef74c30]" started-at="2025-06-25T15:53:10 ICT" name="FindProEngland" finished-at="2025-06-25T15:53:15 ICT" duration-ms="4865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FindProEngland -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:automation.testsuite.FindBepGasProd@4ef74c30]" started-at="2025-06-25T15:53:15 ICT" name="closeBrowser" finished-at="2025-06-25T15:53:18 ICT" duration-ms="3346" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FindProEngland status=SUCCESS method=FindBepGasProd.FindProEngland()[pri:0, instance:automation.testsuite.FindBepGasProd@4ef74c30] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- automation.testsuite.FindMayRuaChenBat -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:automation.testsuite.FindBepGasProd@4ef74c30]" started-at="2025-06-25T15:53:18 ICT" name="openBrowser" finished-at="2025-06-25T15:53:28 ICT" duration-ms="9521" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="FindProd()[pri:0, instance:automation.testsuite.FindBepGasProd@4ef74c30]" started-at="2025-06-25T15:53:28 ICT" name="FindProd" finished-at="2025-06-25T15:53:31 ICT" duration-ms="3565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FindProd -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:automation.testsuite.FindBepGasProd@4ef74c30]" started-at="2025-06-25T15:53:31 ICT" name="closeBrowser" finished-at="2025-06-25T15:53:35 ICT" duration-ms="3271" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FindProd status=SUCCESS method=FindBepGasProd.FindProd()[pri:0, instance:automation.testsuite.FindBepGasProd@4ef74c30] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- automation.testsuite.FindBepGasProd -->
+    </test> <!-- TestProject with chrome: Find built-in gas stove -->
+    <test started-at="2025-06-25T15:53:35 ICT" name="TestProject with FireFox: Find built-in gas stove" finished-at="2025-06-25T15:54:18 ICT" duration-ms="43221">
+      <class name="automation.testsuite.FindBepGasProd">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:automation.testsuite.FindBepGasProd@3f1d2e23]" started-at="2025-06-25T15:53:35 ICT" name="openBrowser" finished-at="2025-06-25T15:53:50 ICT" duration-ms="14999" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="FindProEngland()[pri:0, instance:automation.testsuite.FindBepGasProd@3f1d2e23]" started-at="2025-06-25T15:53:50 ICT" name="FindProEngland" finished-at="2025-06-25T15:53:55 ICT" duration-ms="5468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FindProEngland -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:automation.testsuite.FindBepGasProd@3f1d2e23]" started-at="2025-06-25T15:53:55 ICT" name="closeBrowser" finished-at="2025-06-25T15:53:58 ICT" duration-ms="3422" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FindProEngland status=SUCCESS method=FindBepGasProd.FindProEngland()[pri:0, instance:automation.testsuite.FindBepGasProd@3f1d2e23] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:automation.testsuite.FindBepGasProd@3f1d2e23]" started-at="2025-06-25T15:53:58 ICT" name="openBrowser" finished-at="2025-06-25T15:54:11 ICT" duration-ms="12437" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="FindProd()[pri:0, instance:automation.testsuite.FindBepGasProd@3f1d2e23]" started-at="2025-06-25T15:54:11 ICT" name="FindProd" finished-at="2025-06-25T15:54:14 ICT" duration-ms="3577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FindProd -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:automation.testsuite.FindBepGasProd@3f1d2e23]" started-at="2025-06-25T15:54:14 ICT" name="closeBrowser" finished-at="2025-06-25T15:54:18 ICT" duration-ms="3286" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FindProd status=SUCCESS method=FindBepGasProd.FindProd()[pri:0, instance:automation.testsuite.FindBepGasProd@3f1d2e23] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- automation.testsuite.FindBepGasProd -->
+    </test> <!-- TestProject with FireFox: Find built-in gas stove -->
+  </suite> <!-- TestSuite -->
 </testng-results>

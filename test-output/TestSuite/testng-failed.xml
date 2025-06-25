@@ -9,6 +9,7 @@
     <classes>
       <class name="automation.testsuite.TestHomePage">
         <methods>
+          <include name="quitBrowser"/>
           <include name="openBrowser"/>
           <include name="placeOrderWithWrongPhone"/>
         </methods>
@@ -20,9 +21,8 @@
     <classes>
       <class name="automation.testsuite.TestHomePage">
         <methods>
-          <include name="placeOrderWithoutPhone"/>
+          <include name="quitBrowser"/>
           <include name="openBrowser"/>
-          <include name="placeOrderWithoutName"/>
           <include name="placeOrderWithWrongPhone"/>
         </methods>
       </class> <!-- automation.testsuite.TestHomePage -->
